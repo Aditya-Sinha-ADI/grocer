@@ -1,0 +1,68 @@
+.category {
+    background: rgb(200, 214, 195);
+}
+.category h1 {
+    color: rgb(37, 93, 16);
+    font-weight: 700;
+}
+/* .c-1 {
+    background-image: url("../../../images/fruits.jpeg");
+} */
+
+.categories img {
+    width: 95%;
+    height: 25rem;
+    border-radius: 3rem;
+}
+
+.background{
+    background-color: rgb(242, 248, 240);
+}
+
+.overlay{
+    position: relative;
+}
+
+.fruits {
+    position: absolute;
+    top: 10rem;
+    left: 2;
+    background-color: rgba(200, 214, 195, 0.8);
+    width: 87%;
+    height: 4rem;
+}
+
+.fruits p {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.crd {
+    background-color: rgb(195, 126, 70);
+    border-radius: 1.7rem;
+}
+
+.crd h2{
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 700;
+}
+
+.cad {
+    background-color: rgb(206, 189, 140);
+    border-radius: 1.7rem;
+}
+.cad h2 {
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    .categories img {
+        width: 95%;
+        height: 20rem;
+        border-radius: 3rem;
+    }
+}
+

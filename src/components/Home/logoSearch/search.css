@@ -1,0 +1,76 @@
+.top-nav {
+    height: auto;
+    background: rgba(37, 93, 16, 1);
+}
+
+.brand {
+    display: flex;
+}
+
+.top-nav img {
+    width: 15rem;
+    height: 15rem;
+}
+
+.brand h1{
+    color: white;
+    font-size: 5rem;
+}
+
+.scan {
+    display: flex;
+}
+
+.scan p{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.scan h1 {
+    color: white;
+}
+
+.cart h1{
+    color: white;
+}
+.search input {
+    height: 3rem;
+    font-size: 1.5rem;
+}
+
+.veg-img {
+    background-image: url("../../../images/veg.jpg");
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 6rem;
+    border-bottom-right-radius: 6rem;
+}
+
+@media (max-width: 1200px) {
+    .cart h1{
+        font-size: 2.5rem;
+    }
+    .brand h1 {
+        font-size: 4.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .search {
+        padding-top: 2rem;
+    }
+    .brand h1 {
+        font-size: 2.5rem;
+    }
+    .top-nav img {
+        width: 9rem;
+        height: 9rem;
+    }
+    
+}
+
+
+
+

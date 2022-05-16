@@ -1,0 +1,210 @@
+.Login_background {
+  background: #255d10;
+  min-height: auto;
+  min-width: 100%;
+  position: absolute;
+}
+
+.Login {
+  background: white;
+  margin: 9rem;
+  min-height: 80vh;
+  min-width: 80vh;
+  border-radius: 3rem;
+}
+
+.logo h1{
+    color: #255d10;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.signup {
+    font-size: 1.3rem;
+}
+
+.signup a {
+    font-size: 1.4rem;
+    text-decoration: underline;
+    color: #e79a00;
+    font-weight: 500;
+}
+
+.signup a:hover {
+    color: #255d10;
+}
+
+.greetings {
+    line-height: 1rem;
+}
+
+.greetings h1 {
+  font-size: 4rem;
+}
+
+.greetings p {
+  font-size: 1.5rem;
+}
+
+.email {
+  line-height: 1rem;
+}
+
+.email p {
+  font-size: 1.4rem;
+}
+
+.email input {
+  width: 30rem;
+  height: 3rem;
+  background: #eaeaea;
+  border: none;
+  font-size: 1.5rem;
+}
+
+.password {
+  line-height: 1rem;
+}
+
+.password p {
+  font-size: 1.4rem;
+}
+
+.password input {
+  width: 30rem;
+  height: 3rem;
+  background: #eaeaea;
+  border: none;
+  font-size: 1.5rem;
+}
+
+.form button {
+  padding: 1rem 7rem;
+  border-radius: 1.4rem;
+  background: #e49c11;
+  border: none;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: white;
+}
+
+.form button:hover {
+    color: black;
+}
+
+.form .forgot a {
+  text-decoration: none;
+  color: #3a3a3a;
+  font-size: 1.2rem;
+}
+
+.dash {
+  border-bottom: thin solid black;
+}
+
+.or p {
+  font-size: 1.6rem;
+  position: relative;
+  text-align: center;
+  font-weight: 700;
+}
+
+.or p:before {
+  content: "";
+  display: block;
+  width: 10.5rem;
+  height: 0.1rem;
+  background: #cbcbd4;
+  left: 0;
+  top: 50%;
+  position: absolute;
+}
+.or p:after {
+  content: "";
+  display: block;
+  width: 10.5rem;
+  height: 0.1rem;
+  background: #cbcbd4;
+  right: 0;
+  top: 50%;
+  position: absolute;
+}
+
+.button button {
+    background: none;
+    border: thin solid black;
+    font-size: 1.4rem;
+    border-radius: 2rem;
+    width: 30rem;
+    height: 3.5rem;
+    position: relative;
+}
+
+.button span {
+    position: absolute;
+    left: 0;
+    padding: 0rem 2rem;
+}
+
+.mob-signup {
+  display: none;
+}
+
+.mob-greetings {
+  text-align: center;
+  display: none;
+}
+
+@media (max-width: 991.98px) {
+  .Login_content .greetings {
+    text-align: center;
+  }
+  .Login_content .or {
+    text-align: center;
+  }
+  .Login_content .forgot {
+    text-align: center;
+  }
+  .Login_content form {
+    display: block;
+    text-align: center;
+  }
+  .Login_content form .email p {
+    margin-right: 26rem;
+  }
+  .Login_content form .password p {
+    margin-right: 23.5rem;
+  }
+  .logo h1 {
+    text-align: center;
+  }
+  .mob-signup {
+    display: block;
+  }
+  .mob-greetings {
+    display: block;
+  }
+  .mob-greetings h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .Login_background {
+    height: 0;
+    width: 0;
+  }
+
+  .logo h1 {
+    text-align: center;
+  }
+  
+  .Login {
+    overflow: hidden;
+    background: white;
+    margin: 0;
+    min-height: auto;
+    min-width: auto;
+  }
+}
+

@@ -1,0 +1,64 @@
+.header {
+  display: flex;
+  background-color: #164007;
+  justify-content: space-between;
+  padding: 1rem 3.6rem;
+  border-bottom: 0.5rem solid #f0f2ec;
+  align-items: center;
+  box-shadow: 0 4px 4px -0.45px rgba(0, 0, 0, 0.32);
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+}
+
+.navLocation {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+.location {
+  color: #f0f2ec;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 5.2rem;
+  margin-top: 3.6rem;
+}
+
+.navIcons {
+  font-size: 2.8rem;
+  align-items: center;
+  color: #f0f2ec;
+}
+
+.button {
+  background-color: #164007;
+  color: #f0f2ec;
+  border: none;
+  cursor: pointer;
+}
+.navIcons:hover,
+.button:hover,
+.button:active {
+  color: #e49c11;
+}
+
+.MainNavList {
+  display: flex;
+  list-style: none;
+  gap: 2.4rem;
+  align-items: center;
+  padding: 0 2.5rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 5.2rem;
+  margin-top: 3.6rem;
+}

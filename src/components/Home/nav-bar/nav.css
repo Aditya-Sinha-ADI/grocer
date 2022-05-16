@@ -1,0 +1,101 @@
+.navbar {
+    background-color: rgb(22, 64, 7);
+    height: 7vh;
+    border-bottom: 1.5px solid white;
+  }
+  
+  .navbar ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .toggler-icon {
+    width: 2em;
+    height: 1.5em;
+    margin: 0 9px 0 9px;
+    padding: 0;
+    position: relative;
+    transform: rotate(0deg);
+    transition: 400ms ease-in-out;
+  }
+  
+  .toggler-icon span {
+    display: block;
+    position: absolute;
+    height: 0.2em;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: 400ms ease-in-out;
+  }
+  
+  .toggler-icon span:nth-child(1) {
+    top: 0em;
+  }
+  
+  .toggler-icon span:nth-child(2),
+  .toggler-icon span:nth-child(3) {
+    top: 0.7em;
+  }
+  
+  .toggler-icon span:nth-child(4) {
+    top: 1.4em;
+  }
+  
+  .toggler-icon.open span:nth-child(1) {
+    top: 0.55em;
+    width: 0%;
+    left: 50%;
+  }
+  
+  .toggler-icon.open span:nth-child(2) {
+    transform: rotate(45deg);
+  }
+  
+  .toggler-icon.open span:nth-child(3) {
+    transform: rotate(-45deg);
+  }
+  
+  .toggler-icon.open span:nth-child(4) {
+    top: 0.45em;
+    width: 0%;
+    left: 50%;
+  }
+  
+  .location {
+    color: #fff;
+    margin-left: 0.7rem;
+    font-size: 2rem;
+    padding: 5px;
+  }
+  .a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .navbar ul li button {
+    display: inline-block;
+  }
+  .nav-content {
+    display: inline-block;
+  }
+  
+  .a li span{
+    color: #fff;
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
+  
+  .phone a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .phone a:hover {
+    color: aliceblue;
+  }  

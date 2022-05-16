@@ -1,0 +1,137 @@
+.cart-items {
+  max-height: 25rem;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.cart {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  border: 7rem solid #255d10;
+  border-bottom: 5rem solid #255d10;
+  border-top: 5rem solid #255d10;
+  border-radius: 11rem;
+
+  z-index: 3000;
+  padding: 5rem;
+  background-color: white;
+}
+.cart-items li {
+  margin: 0.5rem;
+}
+
+.cartbg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120vh;
+  z-index: 2000;
+  background-color: #255d10;
+}
+
+.carttitle {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bolder;
+  color: black;
+  font-size: 1.8rem;
+  border-bottom: 1px solid #363636;
+  padding-bottom: 1.2rem;
+  padding-right: 2rem;
+  text-align: left;
+}
+.bill {
+  border-right: 2px solid #fdc148;
+  padding-right: 3rem;
+  width: 50rem;
+}
+.conatiner {
+  display: flex;
+  padding-left: 5rem;
+  gap: 2rem;
+  /* align-items: center; */
+  justify-content: center;
+}
+.image {
+  width: 23rem;
+  height: 18rem;
+  align-self: center;
+}
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  padding: 1.1rem;
+}
+.cartHead {
+  color: #e49c11;
+  font-size: 3.8rem;
+  margin-bottom: 2rem;
+}
+.actions {
+  text-align: right;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.summary {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+}
+.button {
+  font: inherit;
+  cursor: pointer;
+  background-color: #e49c11;
+  color: #164007;
+  border: 2px solid #e49c11;
+  padding: 0.75rem 3.5rem;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: medium;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 3px 5px rgba(54, 54, 54, 0.429);
+  width: 20rem;
+  align-self: center;
+}
+
+.button:hover,
+.button:active {
+  background-color: #fdc148;
+  border-color: #fdc148;
+}
+
+.actions .button--alt {
+  color: #e49c11;
+}
+
+.button--alt {
+  font: inherit;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 1.8rem;
+  border: none;
+  padding: 0.5rem 2.5rem;
+  border-radius: 25px;
+  margin-left: 1rem;
+}
+
+.button--alt:hover,
+.button--alt:active {
+  color: #164007;
+  text-decoration: underline;
+}
+
+.orderText {
+  color: #e49c11;
+  font-size: 2rem;
+  font-weight: 550;
+  text-align: left;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #363636;
+}

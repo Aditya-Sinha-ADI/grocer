@@ -1,0 +1,73 @@
+.topHead {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  width: 100%;
+  padding-left: 38%;
+  z-index: -7;
+  background-color: #c8d6c3;
+  margin-top: 4rem;
+  height: 7rem;
+}
+
+.heading {
+  padding-top: 10rem;
+}
+
+svg text {
+  font-family: Lora;
+  letter-spacing: 6px;
+  stroke: #164007;
+  font-size: 6.5rem;
+  font-weight: 700;
+  stroke-width: 2.5;
+  z-index: 100;
+  animation: textAnimate 4s infinite alternate;
+}
+
+@keyframes textAnimate {
+  0% {
+    stroke-dasharray: 0 50%;
+    stroke-dashoffset: 20%;
+    fill: #255d10;
+  }
+
+  100% {
+    stroke-dasharray: 50% 0;
+    stroke-dashoffstet: -20%;
+    fill: hsla(189, 68%, 75%, 0%);
+  }
+}
+
+/* .subHeading {
+  position: relative;
+
+  /* font-size: 4.5rem;
+  font-weight: 580;
+  text-align: center;
+  z-index: 5;
+  color: #255d10;
+  align-content: space-around;
+
+  background-color: #c8d6c3;
+  display: block;
+  padding: 0.8rem; */
+/* color: #255d10; */
+
+.designL {
+  position: absolute;
+  width: 25.3rem;
+  height: 20rem;
+  top: 6rem;
+  transform: rotate(165deg);
+  left: 0;
+}
+
+.designR {
+  position: absolute;
+  width: 25.3rem;
+  height: 20rem;
+  top: 8rem;
+  right: 0;
+  transform: rotate(-15deg);
+}

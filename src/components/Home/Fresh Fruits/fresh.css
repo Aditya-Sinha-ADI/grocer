@@ -1,0 +1,17 @@
+.fresh img {
+    width: 100%;
+    height: auto;
+    border-radius: 2rem;
+}
+
+.card-back {
+    background-color: rgb(228, 156, 7);
+    border-radius: 2rem;
+}
+.label {
+    display: flex;
+    justify-content: space-between;
+}
+.fresh h3 {
+    color: rgba(70, 70, 70, 1);
+}
